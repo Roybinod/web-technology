@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    
+    }
+    .parent{
+        background-color: #ffba00;
+        height: 100vh;
+
+    }
+    .parent h1{
+        text-align: center;
+        text-transform:capitalize ;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-weight: 900;
+        font-size: ;
+    
+
+    }
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    .child img{
+        height: 400px;
+        width: 400px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h3{
+        font-size: 25px;
+        padding-bottom: 10px;
+
+    }
+    .text h4{
+        font-size: 20px;
+        font-weight: 900;
+        padding-top: 25px;
+    }
+    @media (max-width:1201px){
+        .parent{
+            height:auto;
+        
+        }
+        .flex-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+</style>
+<body>
+    <div class="parent">
+        <h1>Our 2025 keynote speakers</h1>
+        <div class="flex-container">
+        <div class="child">
+            <img src="11vikings-desktop.jpg">
+             <div class="text">
+            <h3>The Ragnar Lothbrok</h3>
+            <p>Head of Marketing</p>
+            <p>The Hobbix</p>
+            <h4>September 16</h4>
+             </div>
+        </div>
+        <div class="child">
+                <img src="lagertha-thumbnail.jpg">
+                <div class="text">
+                <h3>Lagerta</h3>
+                <p>Director of Design</p>
+                <p>Studio RAilla</p>
+                <h4>September 17</h4>
+                </div>
+        </div>
+        
+            <div class="child">
+                <img src="vikgirl41198_2247ea03fd_z.jpg">
+                <div class="text">
+                <h3>Shreya pakrin</h3>
+                <p>The Founder and Ceo</p>
+                <p>The Treasurebox online</p>
+                <h4>September 18</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
